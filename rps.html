@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+    <script src="rps.js" async></script>
+</head>
+<body>
+    <header>
+        <h1 id="winOrLose">This is just beginning...</h1>
+        <p>rock paper scissors with "Math.random()"...  
+            in other words few lines of code</p>
+    </header>
+    
+    <div class="colosseum">
+        <div class="player">
+            <div class="rockdiv"><img onclick="rockClick(this)" id="rock" src="image/rock.png" alt="rock"></div>
+            <div class="paperdiv"><img onclick="paperClick(this)" id="paper" src="image/paper.png" alt="paper"></div>
+            <div class="scidiv"><img onclick="sciClick(this)" id="scissors" src="image/scissors.jpg" alt="scissors"></div>
+        </div>
+
+        <div class="vs"><div onclick="reset()">VS</div></div>
+            
+        <div class="random">
+            <div><img id="compImg" src="image/question.png" alt="question mark"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div>Click "vs" for reset!! <br> win or lose you just played with randomness...</div>
+    </footer>
+</body>
+</html>
+
