@@ -66,11 +66,13 @@ h1 {
 }
 
 footer {
-    margin-top: 1%;
+    height: 6vh;
+    line-height: 6vh;   /*!!*/
     text-align: center;
     color: #0d13b9;
     background-color: yellow;
 }
+
 
 @media screen and (max-width: 750px){
     * {
